@@ -1,7 +1,7 @@
 # everything-about-gans
 
 ## Introduction
-Generative adversarial networks (GANs) are a class of neural networks that are designed to generate new images from a training set of images. GANs are very effective at fooling a classifier, because they are able to generate images that are very close to the training set. GANs can be used for may other tasks such as noise suppression / community detection & text generation.
+Generative adversarial networks (GANs) are a class of neural networks that are designed to generate data (typically images) from a training set of data. GANs are very effective at fooling a classifier, because they are able to generate data that are very close to the training set. GAN consists of 2 different networks ; **Generator** , **Discriminator**. GANs can be used for may other tasks such as noise suppression / community detection & text generation.
 
 ## Why needs to detach the generated tensors from the computational graph?
 
