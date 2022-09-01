@@ -19,4 +19,4 @@ Basic GAN is a GAN that uses a simple discriminator and a simple generator. Only
 
 ### 2. Deep Convolutional GAN
 
-Deep Convolutional GAN is a GAN that uses a deep discriminator and a deep generator. Consists of Convolutional Layers. Images are 3D & Latent Dimension is also 3D tensor. Perfoemance is reletively good. But still has their own drawbacks such as **Mode Collapse**
+Deep Convolutional GAN is a GAN that uses a deep discriminator and a deep generator. Consists of Convolutional Layers. Images are 3D & Latent Dimension is also 3D tensor. Performance is reletively good. But still has their own drawbacks such as **Mode Collapse**
