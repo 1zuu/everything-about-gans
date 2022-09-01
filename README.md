@@ -13,5 +13,10 @@ If you do it for the generator loss, then the generator loss won’t contribute 
 
 ## Table of Contents
 
-### 1. [Introduction](#introduction)
+### 1. Basic GAN
 
+Basic GAN is a GAN that uses a simple discriminator and a simple generator. Only Consists of Linear Layers. Images are flattened and then passed through a fully connected layer. The performance of this model is not very good. Also training is very slow.
+
+### 2. Deep Convolutional GAN
+
+Deep Convolutional GAN is a GAN that uses a deep discriminator and a deep generator. Consists of Convolutional Layers. Images are 3D & Latent Dimension is also 3D tensor. Perfoemance is reletively good. But still has their own drawbacks such as **Mode Collapse**
