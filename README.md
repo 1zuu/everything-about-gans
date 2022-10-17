@@ -20,3 +20,7 @@ Basic GAN is a GAN that uses a simple discriminator and a simple generator. Only
 ### 2. Deep Convolutional GAN
 
 Deep Convolutional GAN is a GAN that uses a deep discriminator and a deep generator. Consists of Convolutional Layers. Images are 3D & Latent Dimension is also 3D tensor. Performance is reletively good. But still has their own drawbacks such as **Mode Collapse**
+
+### 3. Wasserstein GAN
+
+The major drawback of Deep Convolutional GAN is that **Mode Collapse**. The reason is **Vanishing Gradient Problem** & this happens because of the **BCE loss**. BCE loss squash the values between (0,1). When discriminator performs very well, the BCE loss becomes very small. This causes the gradient to vanish. When this occurs generator has no clue how to improve. This is called **Mode Collapse**, because generator stuck in a local minima. To solve this problem we use **Wasserstein GAN**. In Wasserstein GAN we use **Wasserstein Loss** instead of **BCE Loss**. Wasserstein Loss is not squashed between (0,1). This solves the **Vanishing Gradient Problem**. But still has their own drawbacks such as **Training is very unstable**.
